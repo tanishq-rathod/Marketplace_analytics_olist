@@ -6,11 +6,9 @@ Analysis of 100K+ orders from Olist, a Brazilian e-commerce marketplace. Built w
 
 ## The question
 
-Olist did R$13.59M across 99,441 orders between 2016 and 2018. On-time delivery sat at 93%. Average review score was 4.09.
+Olist did R$13.59M across 99,441 orders between 2016 and 2018. Revenue climbed steadily through 2017 — then flattened in 2018 and never recovered.
 
-And revenue flattened in 2018 anyway.
-
-Good numbers, stalled growth. I wanted to know why.
+The top-line looks like a business that found its ceiling. I wanted to know why.
 
 ---
 
