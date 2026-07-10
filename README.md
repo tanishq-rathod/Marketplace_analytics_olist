@@ -20,7 +20,7 @@ Barely any customers place a second order. That seemed off, so I looked at it a 
 
 - Repeat purchase rate: **3.12%**
 - Cohort retention: **0.48%** active a month after first purchase, down to **0.04%** by month twelve
-- RFM segmentation: about **60%** of customers fall into At-Risk or Lost
+- RFM segmentation: about **60%** of customers fall into At-Risk or Lost Customers
 
 They all point the same way. This isn't slow churn — most people just don't come back. Which means growth depends entirely on new customers.
 
