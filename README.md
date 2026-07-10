@@ -16,15 +16,17 @@ The top-line looks like a business that found its ceiling. I wanted to know why.
 
 **Retention is the problem, not acquisition.**
 
-Only 3.12% of customers ever come back for a second order. I checked this three ways because the number seemed too low to be real:
+Barely any customers place a second order. That seemed off, so I looked at it a few different ways:
 
 - Repeat purchase rate: **3.12%**
-- Cohort retention: **0.48%** active one month after first purchase, **0.04%** by month twelve
-- RFM segmentation: **~60%** of customers sit in At-Risk or Lost; Champions are **1.3%**
+- Cohort retention: **0.48%** active a month after first purchase, down to **0.04%** by month twelve
+- RFM segmentation: about **60%** of customers fall into At-Risk or Lost
 
-All three agree. Olist isn't losing customers slowly — most never return at all. Every real of revenue growth has to come from someone new.
+They all point the same way. This isn't slow churn — most people just don't come back. Which means growth depends entirely on new customers.
 
-**Delivery is what breaks satisfaction.**
+**So why don't they come back?**
+
+The data can't fully answer that, but one thing stands out: delivery. A late order is the most obvious bad first impression here, and it clearly drags down how people rate the purchase.
 
 | Delivery outcome | Avg review |
 |---|---|
@@ -32,11 +34,9 @@ All three agree. Olist isn't losing customers slowly — most never return at al
 | Late | 2.27 |
 | Never delivered | 1.76 |
 
-A two-star drop, and it holds up statistically (Welch's t = 100.97, p < 0.001). Review scores track delivery reliability almost perfectly.
+Late orders roughly halve the review score, and the gap holds up statistically (Welch's t = 100.97, p < 0.001) — it's not noise.
 
-**The regions with the most headroom get the worst service.**
-
-Revenue concentrates hard in São Paulo and the southeast. Meanwhile remote northern states wait 25–30 days for delivery against a 12.5-day national average.
+Delivery also gets worse the further you go from the southeast. Revenue is concentrated in São Paulo and the surrounding states, while remote northern regions wait 25–30 days for an order against a national average of about 12. The places with the most room to grow are the ones getting the slowest service.
 
 ---
 
