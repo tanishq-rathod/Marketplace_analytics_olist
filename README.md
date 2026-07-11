@@ -136,12 +136,11 @@ Sellers come as hashed IDs with no names or business details, so I can't dig int
 
 ```
 sql/
-    01_setup_and_load.sql
-    02_analysis_queries.sql
+    01_analysis_queries.sql
 notebooks/
-    03_python_analysis.ipynb
+    02_python_analysis.ipynb
 powerbi/
-    marketplace_analytics.pbix
+    (.pbix on Google Drive — link in Dashboard section)
 data/
     cohort_retention.csv
 screenshots/
