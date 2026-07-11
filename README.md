@@ -108,19 +108,13 @@ The analysis leaned on four main techniques.
 
 ---
 
-## Things that went wrong (and how I caught them)
+## Reconciliation
 
-This section exists because the mistakes taught me more than the parts that worked.
+I checked key numbers across both tools before trusting them, which caught two issues.
 
-**Avg delivery time came out as 34 days.** Python said 12.06. The DAX measure was iterating over `orders`, but the one-to-many relationship with `order_items` meant an order with three items got counted three times. Wrapping the filter in `ALL()` stripped the fan-out and brought it to 12.5.
+Avg delivery time first came out as 34 days in Power BI, against Python's 12.06. The DAX measure was iterating over `orders`, and the one-to-many link with `order_items` counted each order once per item — so a three-item order got counted three times. Wrapping the filter in `ALL()` removed the fan-out and brought it to 12.5.
 
-**Late-delivery reviews showed 2.57 in Power BI and 2.27 in Python.** Two separate causes. My `DATEDIFF` arguments were reversed, and Power BI was comparing full timestamps while Python compared whole days — so an order arriving six hours past the estimate was "late" in one tool and "on time" in the other. I aligned both on a *1+ full days late* definition. Same number now.
-
-**`customer_id` is not the customer.** Olist regenerates it per order. `customer_unique_id` is the actual person. Using the wrong one gives a repeat rate of exactly zero, which is the kind of clean number that should make you suspicious.
-
-**I loaded RFM at customer grain, not summary grain.** 95,420 rows instead of 5. Pre-aggregating in SQL would have been easier and would have made the segment chart dead — no cross-filtering, no drilling. Let the BI layer do the aggregating.
-
-**Three visuals got cut.** A month-over-month growth chart that just restated the revenue trend. An RFM-by-revenue chart that ranked identically to RFM-by-count. A seller concentration chart, built before I checked whether there was any concentration to show. There wasn't.
+The late-delivery review score also disagreed — 2.57 in Power BI, 2.27 in Python. Two causes: my `DATEDIFF` arguments were reversed, and Power BI compared full timestamps while Python compared whole days, so an order arriving a few hours past estimate counted as late in one and on-time in the other. Aligning both on a "1+ full days late" rule brought them back in line.
 
 ---
 
