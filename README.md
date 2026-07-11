@@ -84,12 +84,11 @@ Delivery status vs review score, on-time rate, delivery time by state.
 
 ## How it was built
 
-| Stage | Tool | What happened there |
+| Stage | Tool | Work Done |
 |---|---|---|
-| Load & model | MySQL 8 | 9 tables, star schema, joins / CTEs / window functions |
-| Segment | SQL | RFM via `NTILE(5)` on recency, frequency, monetary |
+| Load, Model & Segment | MySQL 8 | 9 related tables, multi-table joins, CTEs, window functions (NTILE), RFM segmentation |
 | Analyse | Python (Jupyter) | Cohort retention, Welch's t-test, Holt-Winters forecast |
-| Visualise | Power BI | 3-page dashboard, DAX measures and calculated columns |
+| Visualise | Power BI | 3-page interactive dashboard, DAX measures and calculated columns |
 
 Dataset: [Olist Brazilian E-Commerce](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce), 2016–2018.
 
