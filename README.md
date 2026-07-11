@@ -78,7 +78,7 @@ RFM segments, cohort decay curve, at-risk and lost customer counts.
 **Page 3 — Operations & Delivery**
 Delivery status vs review score, on-time rate, delivery time by state.
 
-![Page 3 — Operations & Delivery](https://github.com/user-attachments/assets/PAGE3-URL-HERE)
+![Page 3 — Operations & Delivery](https://github.com/user-attachments/assets/d8a21928-cce1-4473-9201-0e933a40fc1f)
 
 ---
 
