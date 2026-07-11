@@ -147,15 +147,4 @@ data/
 screenshots/
 README.md
 ```
-
----
-
-## Scope
-
-Included: RFM segmentation, cohort analysis, hypothesis testing, time-series forecasting, interactive dashboarding.
-
-Not included: churn prediction, sentiment analysis, market basket, recommenders. Each one either needs data this dataset doesn't have, or adds complexity without adding insight. A 3.12% repeat rate means there's barely any repeat behaviour to model in the first place.
-
----
-
 Tanishq Rathod · B.Tech Electrical Engineering, NIT Patna
