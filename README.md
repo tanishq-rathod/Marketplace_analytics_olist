@@ -118,17 +118,17 @@ The late-delivery review score also disagreed — 2.57 in Power BI, 2.27 in Pyth
 
 ---
 
-## Where this analysis is limited
+## Limitations
 
-The delivery/review relationship is a strong association, not proven causation. Late deliveries cluster in remote regions, and those regions may differ in other ways that affect how people rate things. I'd want a controlled comparison before claiming delivery *causes* the review drop.
+The delivery-review link is an association, not proof. Late orders are more common in remote regions, and those regions may differ in other ways that also drag down reviews. Proving delivery actually *causes* the drop would need a controlled comparison, which this data doesn't allow.
 
-The Holt-Winters forecast is directional at best — 30.1% MAPE with a damped trend, down from 36.8% undamped. It consistently over-predicted 2018. That failure was actually the useful part: the model expected growth that never arrived.
+The revenue forecast isn't accurate — 30.1% MAPE, and it kept over-predicting 2018. It's not something to plan against. Its only real use was that the size of the miss lined up with the slowdown I'd already seen in the actual numbers.
 
-The R$378K figure assumes one extra purchase per newly-retained customer at current AOV. It's a floor, not a forecast.
+The R$378K assumes one extra order per retained customer at current AOV. It's a rough floor, not a projection.
 
-Boundary months (Sept–Dec 2016, Sept 2018) are excluded from trend analysis — too few orders to be meaningful.
+Boundary months (Sept–Dec 2016, Sept 2018) are dropped from the trend — too few orders to read anything into.
 
-Sellers are anonymised as hashed IDs, so seller-level analysis can only go so far.
+Sellers come as hashed IDs with no names or business details, so I can't dig into which sellers drive performance or why.
 
 ---
 
