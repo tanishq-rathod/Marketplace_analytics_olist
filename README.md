@@ -81,6 +81,7 @@ Delivery status vs review score, on-time rate, delivery time by state.
 ![Page 3 — Operations & Delivery](https://github.com/user-attachments/assets/d8a21928-cce1-4473-9201-0e933a40fc1f)
 
 ---
+The full interactive Power BI file is available here: [marketplace_analytics.pbix](https://drive.google.com/file/d/1nbxAt0j7hiODYPix8_u1YRSNJssmrScp/view?usp=sharing)
 
 ## How it was built
 
