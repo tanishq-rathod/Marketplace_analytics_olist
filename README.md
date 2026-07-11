@@ -90,7 +90,7 @@ Delivery status vs review score, on-time rate, delivery time by state.
 | Analyse | Python (Jupyter) | Cohort retention, Welch's t-test, Holt-Winters forecast |
 | Visualise | Power BI | 3-page interactive dashboard, DAX measures and calculated columns |
 
-Dataset: [Olist Brazilian E-Commerce](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce), 2016–2018.
+Dataset: [Olist Brazilian E-Commerce](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce), [2016–2018].
 
 ---
 
