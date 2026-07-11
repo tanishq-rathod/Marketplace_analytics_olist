@@ -42,11 +42,21 @@ Delivery also gets worse the further you go from the southeast. Revenue is conce
 
 ## What I'd recommend
 
-At a 3.12% repeat rate there's no compounding customer base. Every sale needs a new customer. The 2018 plateau is what running out of acquisition runway looks like.
+Two directions, and both target things the analysis actually surfaced.
 
-Getting repeat rate to 6% — still nothing special by industry standards — would mean roughly **2,768 more repeat purchases, about R$378K**. The number itself isn't huge. What matters is that it costs nothing to acquire. The same R$378K through new customers carries full CAC.
+**Fix delivery where it's broken.**
 
-The most direct lever is delivery. It's the one variable in this dataset that measurably moves review scores, and the regions where it's worst are the ones with room to grow. Fix delivery in under-served states first.
+The delivery problem isn't uniform — it's concentrated in the remote northern states, where orders take 25–30 days against a national average of about 12. And late orders cost real money: reviews drop from 4.29 to 2.27 the moment an order misses its estimate.
+
+Olist could cut that gap by building a warehouse or partnering with a local fulfillment provider closer to these regions. The catch is that these states bring in less revenue today, so it's a bet on unlocking new demand rather than protecting existing sales. The smart way to play it is to try one region first, see whether faster delivery actually brings people back, and expand only if the numbers hold.
+
+**Give people a reason to come back.**
+
+The bigger issue is retention. Only 3.12% of customers order twice, and around 60% sit in At-Risk or Lost — there's barely any returning base to build on. Better delivery improves the experience, but it doesn't give anyone a reason to return.
+
+A subscription could. Something with real perks — faster shipping, lower prices, member-only deals — turns a one-time buyer into someone with a reason to come back. It also feeds the first idea: the fast-delivery perk rides on the same fulfillment improvements, so the two reinforce each other instead of splitting the budget.
+
+Neither is a sure thing. But both go straight at the problems the data points to, instead of chasing growth by buying one-time customers forever..
 
 ---
 
