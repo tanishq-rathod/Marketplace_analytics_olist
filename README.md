@@ -65,17 +65,21 @@ Neither is a sure thing. But both go straight at the problems the data points to
 **Page 1 — Executive Overview**
 Revenue, orders, AOV, repeat rate, category and geographic breakdown.
 
-<!-- INSERT SCREENSHOT 1 -->
+<img width="638" height="361" alt="Screenshot 2026-07-09 175637" src="https://github.com/user-attachments/assets/adc76bfb-120f-4a22-a7db-29e2a141a1c9" />
+
+
 
 **Page 2 — Customers & Retention**
 RFM segments, cohort decay curve, at-risk and lost customer counts.
 
-<!-- INSERT SCREENSHOT 2 -->
+<img width="627" height="355" alt="Screenshot 2026-07-09 175645" src="https://github.com/user-attachments/assets/8519ea99-f96a-4249-b6c2-0ea304c8df7e" />
+
 
 **Page 3 — Operations & Delivery**
 Delivery status vs review score, on-time rate, delivery time by state.
 
-<!-- INSERT SCREENSHOT 3 -->
+<img width="637" height="355" alt="Screenshot 2026-07-09 175655" src="https://github.com/user-attachments/assets/d66bc09f-a20a-460d-b984-1374e6981097" />
+
 
 ---
 
