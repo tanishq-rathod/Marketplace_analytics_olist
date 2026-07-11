@@ -94,17 +94,17 @@ Dataset: [Olist Brazilian E-Commerce](https://www.kaggle.com/datasets/olistbr/br
 
 ---
 
-## Methods worth calling out
+## Analytical Methods
 
-Three techniques did the heavy lifting here.
+The analysis leaned on four main techniques.
 
-**RFM segmentation with window functions.** Scored every customer on recency, frequency, and monetary value using `NTILE(5)` over each dimension, then bucketed them into segments with a CASE expression. Champions, Loyal, New, At-Risk, Lost. It's the same approach retailers use to decide who gets the win-back email.
+**RFM segmentation with window functions.** Scored every customer on recency, frequency, and monetary value using `NTILE(5)` over each dimension, then bucketed them into segments with a CASE expression — Champions, Loyal, New, At-Risk, Lost.
 
-**Welch's t-test on delivery impact.** The obvious question after seeing 4.29 vs 2.27 is whether that gap is real or noise. Welch's is the right test here rather than Student's because the two groups have wildly different sizes and variances — most orders arrive on time. Result: t = 100.97, p ≈ 0. The gap is not noise.
+**Welch's t-test on delivery impact.** After seeing 4.29 vs 2.27, the question is whether that gap is real or just noise. Welch's fits here because the two groups have very different sizes and variances — most orders arrive on time. Result: t = 100.97, p ≈ 0. The gap isn't noise.
 
-**Holt-Winters exponential smoothing for the revenue forecast.** Triple exponential smoothing, which handles level, trend, and seasonality — appropriate for monthly e-commerce data with a Black Friday spike. The undamped model hit 36.8% MAPE and kept forecasting growth. Adding a damped trend brought it to 30.1%. Still not precise, but the *way* it failed was the finding: the model expected 2018 to keep climbing, and it didn't. That's the plateau, quantified by a model that refused to see it coming.
+**Holt-Winters exponential smoothing for the revenue forecast.** Triple exponential smoothing, which handles level, trend, and seasonality — a fit for monthly e-commerce data with a Black Friday spike. The undamped model hit 36.8% MAPE and kept forecasting growth; a damped trend brought it to 30.1%. The model kept expecting 2018 to grow, and it didn't. That failure was the actual finding — the plateau showing up as forecast error.
 
-**Cohort retention curves.** Grouped customers by their first-purchase month, then tracked what fraction stayed active in each subsequent month. The decay from 0.48% to 0.04% is what a retention problem looks like when you plot it.
+**Cohort retention curves.** Grouped customers by their first-purchase month, then tracked what fraction stayed active in each following month. The decay from 0.48% to 0.04% is what a retention problem looks like when you plot it..
 
 ---
 
