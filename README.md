@@ -147,4 +147,4 @@ data/
 screenshots/
 README.md
 ```
-Tanishq Rathod · B.Tech Electrical Engineering, NIT Patna
+Tanishq Rathod ·(2302077), NIT Patna
